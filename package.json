@@ -12,7 +12,7 @@
     "/dist/src"
   ],
   "scripts": {
-    "test": "ts-mocha test/**/*.ts",
+    "test": "ts-mocha test/**/*.test.ts",
     "typecheck": "tsc --noEmit",
     "build": "tsc",
     "pretty": "prettier \"./src/**/*.ts\" \"./test/**/*.ts\" --write",
